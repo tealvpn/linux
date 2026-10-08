@@ -6,6 +6,10 @@ allowance with no card and no ads. Teal Pro is unlimited and opens every locatio
 This page hosts the **direct download** of Teal VPN for Ubuntu, Debian and other Debian-based Linux (a `.deb`
 package). This repository holds no source code, only the releases.
 
+## Screenshots
+
+<p><img src="screenshots/connect.webp" alt="Connected" width="420"> <img src="screenshots/locations.webp" alt="Locations" width="420"> <img src="screenshots/protection.webp" alt="Protection" width="420"></p>
+
 ## Download
 
 - **Intel / AMD (most PCs):** [teal-vpn_amd64.deb](https://github.com/tealvpn/linux/releases/latest/download/teal-vpn_amd64.deb)
