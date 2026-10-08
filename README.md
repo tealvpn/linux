@@ -1,21 +1,21 @@
-# Teal VPN for Linux
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tealvpn/.github/main/profile/banner.png" alt="Teal VPN" width="100%">
+</p>
 
-Teal VPN is a private VPN that is built to connect on networks that block VPNs. Teal Free gives you a daily data
-allowance with no card and no ads. Teal Pro is unlimited and opens every location.
+<h1 align="center">Teal VPN for Linux</h1>
+<p align="center">Ubuntu, Debian and other Debian-based Linux, Intel / AMD and ARM.</p>
 
-This page hosts the **direct download** of Teal VPN for Ubuntu, Debian and other Debian-based Linux (a `.deb`
-package). This repository holds no source code, only the releases.
+<p align="center">
+  <a href="https://github.com/tealvpn/linux/releases/latest/download/teal-vpn_amd64.deb"><img src="https://raw.githubusercontent.com/tealvpn/.github/main/profile/btn-linux.png" alt="Download for Linux" height="56"></a>
+  <a href="https://github.com/tealvpn/linux/releases/latest/download/teal-vpn_arm64.deb"><img src="https://raw.githubusercontent.com/tealvpn/.github/main/profile/btn-linux-arm.png" alt="Linux on ARM" height="56"></a>
+</p>
+<p align="center"><sub>Most PCs: the first button. Raspberry Pi 4/5 and ARM laptops: Linux on ARM.</sub></p>
 
-## Screenshots
-
-<p><img src="screenshots/connect.webp" alt="Connected" width="420"> <img src="screenshots/locations.webp" alt="Locations" width="420"> <img src="screenshots/protection.webp" alt="Protection" width="420"></p>
-
-## Download
-
-- **Intel / AMD (most PCs):** [teal-vpn_amd64.deb](https://github.com/tealvpn/linux/releases/latest/download/teal-vpn_amd64.deb)
-- **ARM (Raspberry Pi 4/5, ARM laptops):** [teal-vpn_arm64.deb](https://github.com/tealvpn/linux/releases/latest/download/teal-vpn_arm64.deb)
-
-Every version is on the [Releases](https://github.com/tealvpn/linux/releases) page.
+<p align="center">
+  <img src="screenshots/connect.webp" alt="Connected" width="420">
+  <img src="screenshots/locations.webp" alt="Locations" width="420">
+  <img src="screenshots/protection.webp" alt="Protection" width="420">
+</p>
 
 ## Install
 
@@ -23,23 +23,22 @@ Every version is on the [Releases](https://github.com/tealvpn/linux/releases) pa
 sudo apt install ./teal-vpn_amd64.deb
 ```
 
-Then open **Teal VPN** from your applications menu, sign in and press **Connect**.
+Then open **Teal VPN** from your applications menu, sign in and click **Connect**.
 
-## Check the file (SHA-256)
+## Check the file
 
-Each release lists the files' SHA-256 and carries a `.sha256` file for each package:
+Each release lists the SHA-256 of each package and carries a `.sha256` file:
 
 ```
 sha256sum -c teal-vpn_amd64.deb.sha256
 ```
 
-The app updates itself and checks a signed manifest and the SHA-256 before installing an update.
+## Updates
+
+The app updates itself and checks a signed list and the SHA-256 before installing an update.
 
 ## Official links
 
-- Website: https://tealvpn.com
-- Linux: https://tealvpn.com/linux
-- Your account: https://account.tealvpn.com
-- Help: support@tealvpn.com
+[tealvpn.com](https://tealvpn.com/linux) · [Your account](https://account.tealvpn.com) · [All Teal VPN downloads](https://github.com/tealvpn) · support@tealvpn.com
 
-Download Teal VPN only from tealvpn.com or this page.
+Download Teal VPN only from tealvpn.com, Google Play or this GitHub organization. This repository holds no source code, only the releases.
